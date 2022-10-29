@@ -21,7 +21,6 @@ Este projeto foi desenvolvido por Aysllan Ferreira, enquanto estudante na Trybe 
 3. Não é necessário criar sua branch. 
 
 	* Todo projeto deve ser realizado no seu PC, não necessitando assim fazer o git push para o remoto.
-	  * Exemplo: `git branch`
 	
 </details>
 
