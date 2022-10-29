@@ -1,6 +1,6 @@
 const findWarrior = require('../exercicios/findWarrior');
 
-describe('Exercicio 4', () => {
+describe('Teste findWarrior', () => {
   it('Encontrando guerreiro por ID', () => {
     expect(findWarrior('c81e728d9d4c2f636f067f89cc14862c')).toBe('Vegeta');
   })

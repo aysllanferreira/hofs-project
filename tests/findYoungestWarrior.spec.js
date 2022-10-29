@@ -1,6 +1,6 @@
 const findYoungestWarrior = require('../exercicios/findYoungestWarrior');
 
-describe('Exercicio 3', () => {
+describe('findYoungestWarrior teste', () => {
   it('Deve retornar o nome do guerreiro mais jovem.', () => {
     expect(findYoungestWarrior()).toEqual('Gohan');
   });

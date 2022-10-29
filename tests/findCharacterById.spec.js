@@ -1,6 +1,6 @@
 const findCharacterById = require('../exercicios/findCharacterById');
 
-describe('Exercicio 1', () => {
+describe('findCharacterById Teste', () => {
   it('Encontre o personagem por ID', () => {
     expect(findCharacterById('eccbc87e4b5ce2fe28308fd9f2a7baf3')).toEqual(['O nome do personagem é Piccolo']);
   });

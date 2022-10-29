@@ -1,6 +1,6 @@
 const findByRaceAndAge = require('../exercicios/findByRaceAndAge');
 
-describe('Exercicio 2', () => {
+describe('findByRaceAndAge Teste', () => {
   it('A funcao sem parametros deve retornar um objeto vazio.', () => {
     expect(findByRaceAndAge()).toEqual({});
   });
