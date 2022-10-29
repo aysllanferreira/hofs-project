@@ -87,10 +87,10 @@ npm test tests/ex01.spec.js
   Implemente a função <code>findCharacterById</code> para buscar os guerreiros por meio de um <code>ID</code> e retorne o nome do guerreiro.
   </summary> <br />
 
-- Encontre o personagem com ID passado por parametro e retorne o nome dele neste formato
+- Encontre o personagem com ID passado por parametro e retorne um array com o nome dele neste formato
 
 ```bash
-'O nome do personagem é Goku'
+['O nome do personagem é Goku']
 ```
 
 - Faça com que a função possa receber vários parametros.
@@ -138,9 +138,9 @@ npm test tests/ex01.spec.js
 
 </details><br>
 
-## 4. Implemente a função `findWarriorByPlanet`.
+## 4. Implemente a função `findByPlanet`.
 <details>
-<summary>Implemente a função <code>findWarriorByPlanet</code> deve retornar os guerreiros que mora no planeta passado por parametro e retornar um array de objeto contendo as chaves nome e planeta. </summary><br>
+<summary>Implemente a função <code>findByPlanet</code> deve retornar os guerreiros que mora no planeta passado por parametro e retornar um array de objeto contendo as chaves nome e planeta. </summary><br>
 
 - O parametro sera o planeta de nascimento do guerreiro.
 Se nao houver nenhum guerreiro com esse planeta, retorne:
@@ -155,16 +155,16 @@ O retorno deve ser um array de objeto no formato abaixo:
 
 **O que será testado:**
 
-- A função `findWarriorByPlanet`, caso não receba parametros deve retornar 'Nenhum guerreiro encontrado'.
-- A função `findWarriorByPlanet`, caso receba um guerreiro invalido deve retornar 'Nenhum guerreiro encontrado'.
-- A função `findWarriorByPlanet`, deve retornar um array de objetos que contenha as chaves nome e planeta.
+- A função `findByPlanet`, caso não receba parametros deve retornar 'Nenhum guerreiro encontrado'.
+- A função `findByPlanet`, caso receba um guerreiro invalido deve retornar 'Nenhum guerreiro encontrado'.
+- A função `findByPlanet`, deve retornar um array de objetos que contenha as chaves nome e planeta.
 
 
 </details><br>
 
-## 5. Implemente a função `findWarriorsByRaceAndAge`.
+## 5. Implemente a função `findByRaceAndAge`.
 <details>
-<summary>Implemente a função <code>findWarriorsByRaceAndAge</code> encontrando todos os guerreiros que forem passados por parametro e retornando se TODOS possuem a idade maior do que a especificada por parametro.</summary><br>
+<summary>Implemente a função <code>findByRaceAndAge</code> encontrando todos os guerreiros que forem passados por parametro e retornando se TODOS possuem a idade maior do que a especificada por parametro.</summary><br>
 
 - O primeiro parametro é uma raca de guerreiros.
 - O segundo parametro é uma idade.
@@ -185,12 +185,12 @@ O retorno deve ser um array de objeto no formato abaixo:
 
 **O que será testado:**
 
-- A função `findWarriorsByRaceAndAge`, caso não receba nenhum parametro deve retornar um objeto vazio.
+- A função `findByRaceAndAge`, caso não receba nenhum parametro deve retornar um objeto vazio.
 
-- A função `findWarriorsByRaceAndAge`, caso não encontre a raça passada por parametro, deve retornar 'Guerreiro não encontrado!'.
+- A função `findByRaceAndAge`, caso não encontre a raça passada por parametro, deve retornar 'Guerreiro não encontrado!'.
 
-- A função `findWarriorsByRaceAndAge`, caso a idade for um numero negativo ou string, retorne Idade invalida!'
+- A função `findByRaceAndAge`, caso a idade for um numero negativo ou string, retorne Idade invalida!'
 
-- A função `findWarriorsByRaceAndAge`, deve encontrar todos os guerreiros da raça passada por parametro e verificar se TODOS eles tem a idade maior ou igual ao parametro idade. O retorno deve ser um booleano.
+- A função `findByRaceAndAge`, deve encontrar todos os guerreiros da raça passada por parametro e verificar se TODOS eles tem a idade maior ou igual ao parametro idade. O retorno deve ser um booleano.
 
 </details>

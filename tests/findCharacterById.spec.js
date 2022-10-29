@@ -1,4 +1,4 @@
-const findCharacterById = require('../exercicios/ex01');
+const findCharacterById = require('../exercicios/findCharacterById');
 
 describe('Exercicio 1', () => {
   it('Encontre o personagem por ID', () => {

@@ -1,6 +1,6 @@
 const data = require('../data');
 
-function findCharacterById(id) {
+function findCharacterById(ids) {
   // seu codigo aqui~
   return null;
 }
