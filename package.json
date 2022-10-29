@@ -1,0 +1,26 @@
+{
+  "name": "aulao-turma-27-hofs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aysllanferreira/aulao-turma-27-hofs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aysllanferreira/aulao-turma-27-hofs/issues"
+  },
+  "homepage": "https://github.com/aysllanferreira/aulao-turma-27-hofs#readme",
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^29.2.2"
+  }
+}
