@@ -1,8 +1,8 @@
 const data = require('../data');
 
-function findWarriorsByRaceAndAge(raca, idade) {
+function findWarrior(warrior) {
   // seu codigo aqui~
   return null;
 }
 
-module.exports = findWarriorsByRaceAndAge;
+module.exports = findWarrior;

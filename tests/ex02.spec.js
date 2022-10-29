@@ -1,21 +1,9 @@
-const findWarriorsByRaceAndAge = require('../exercicios/ex02');
+const findWarrior = require('../exercicios/ex02');
 
-describe('Exercicio 2', () => {
-  it('A funcao sem parametros deve retornar um objeto vazio.', () => {
-    expect(findWarriorsByRaceAndAge()).toEqual({});
-  });
-
-  it('Se o guerreiro nao for encontrado, retorne Guerreiro nao encontrado!', () => {
-    expect(findWarriorsByRaceAndAge('Saiyajinx', 100)).toEqual('Guerreiro nao encontrado!');
+describe('Exercicio 4', () => {
+  it('Encontrando guerreiro por ID ou nome', () => {
+    expect(findWarrior('c81e728d9d4c2f636f067f89cc14862c')).toBe('Vegeta');
+    expect(findWarrior('Gohan')).toBe('Gohan');
+    expect(findWarrior('Tenshinhan')).toBe('Nenhum guerreiro encontrado');
   })
-
-  it('Se a idade for um numero negativo ou string, retorne Idade invalida!', () => {
-    expect(findWarriorsByRaceAndAge('Namekuseijin', -1)).toEqual('Idade invalida!');
-    expect(findWarriorsByRaceAndAge('Humano', '100')).toEqual('Idade invalida!');
-  });
-
-  it('Encontre todos os guerreiros da raca passada por parametro.', () => {
-    expect(findWarriorsByRaceAndAge('Saiyajin', 100)).toEqual(false);
-    expect(findWarriorsByRaceAndAge('Humano', 1)).toEqual(true);
-  });
 });

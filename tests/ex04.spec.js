@@ -1,9 +1,14 @@
-const findWarrior = require('../exercicios/ex04');
+const findWarriorByPlanet = require('../exercicios/ex04');
 
-describe('Exercicio 4', () => {
-  it('Encontrando guerreiro por ID ou nome', () => {
-    expect(findWarrior('c81e728d9d4c2f636f067f89cc14862c')).toBe('Vegeta');
-    expect(findWarrior('Gohan')).toBe('Gohan');
-    expect(findWarrior('Tenshinhan')).toBe('Nenhum guerreiro encontrado');
+describe('Exercicio 5', () => {
+  it('Encontrando guerreiro por planeta', () => {
+    expect(findWarriorByPlanet('Planeta Vegeta')).toEqual([
+      { nome: 'Goku', planeta: 'Planeta Vegeta' },
+      { nome: 'Vegeta', planeta: 'Planeta Vegeta' },
+    ]);
+    expect(findWarriorByPlanet('Namekusei')).toEqual([
+      { nome: 'Piccolo', planeta: 'Namekusei' },
+    ]);
+    expect(findWarriorByPlanet('Planeta Terra')).toBe('Nenhum guerreiro encontrado');
   })
 });
